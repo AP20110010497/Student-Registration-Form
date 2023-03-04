@@ -1,0 +1,25 @@
+body
+{
+    background-image: url(https://srmap.edu.in/file/2017/03/1.jpg?x70332);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+h1
+{
+    font-size: 45px;
+}
+.labels
+{
+    color:#fff;
+    font-size: 20px;
+}
+.M
+{
+    color: #ff4c68;
+    font-size: 20px;
+}
+.images
+{
+    background-color: transparent;
+}
