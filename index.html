@@ -12,9 +12,9 @@
             <span style="color: #fff;">STUDENT</span>
             <span style="color: #fff">REGISTRATION</span>
         </h1>
-    </center><br>
+    </center>
     <marquee class="M"><b>Please submit the registration form as soon as possible!!</b></marquee>
-    <br><br><br>
+    <br><br>
     <form>
     <center>
         <table>
@@ -23,15 +23,23 @@
             <td><input type="text" value=""></td>
         </tr>
         <tr>
+            <td><br><label class="labels"><b>DOB:</b></label></td>
+            <td><br><input type="date" name="bday" /></td>
+        </tr>
+        <tr>
             <td><br><label class="labels"><b>Age:</b></label></td>
             <td><br><input type="text" value=""></td>
         </tr>
         <tr>
             <td><br><label class="labels"><b>Gender:</b></label></td>
             <td><br>
-                <input type="radio" name="radio" value=""><b>male</b>
-                <input type="radio" name="radio" value=""><b>female</b>
+                <input type="radio" name="radio" value=""><font color="#fff" size="5px"><b>male</b></font>
+                <input type="radio" name="radio" value=""><font color="#fff" size="5px"><b>female</b></font>
             </td>
+        </tr>
+        <tr>
+            <td><br><label class="labels"><b>Email:</b></label></td>
+            <td><br><input type="text" value=""></td>
         </tr>
         <tr>
             <td><br><label class="labels"><b>Department:</b></label></td>
@@ -40,17 +48,21 @@
                 <option value="select">select</option>
                 <option value="CSE">CSE</option>
                 <option value="ECE">ECE</option>
-                <option value="EEE">ECE</option>
+                <option value="EEE">EEE</option>
                 </select>
             </td>
         </tr>
         <tr>
             <td><br><label class="labels"><b>Courses Studied:</b></label></td>
             <td><br>
-                <input type="checkbox" value="checkbox"><b>C</b>
-                <input type="checkbox" value="checkbox"><b>C++</b>
-                <input type="checkbox" value="checkbox"><b>Data Structures</b>
+                <input type="checkbox" value="checkbox"><font color="#fff" size="5px"><b>C</b></font>
+                <input type="checkbox" value="checkbox"><font color="#fff" size="5px"><b>C++</b></font>
+                <input type="checkbox" value="checkbox"><font color="#fff" size="5px"><b>Data Structures</b></font>
             </td>
+        </tr>
+        <tr>
+            <td><br><label class="labels"><b>Mobile Number:</b></label></td>
+            <td><br><input type="text" value=""></td>
         </tr>
         <tr>
            <td><br><input type="submit" value="Submit">
